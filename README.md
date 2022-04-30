@@ -11,11 +11,11 @@
     WPF Toolkit (in addition to the library we are interested in, others will be installed), or
     download directly on the site http://wpftoolkit.codeplex.com/ and connect to the project only
     the library we are interested in (References -> Add Reference ...).
-        a. Place a Label and a Button in the window.
-        b. Place in the ColorPicker window (this tool is provided by the above
+        1. Place a Label and a Button in the window.
+        2. Place in the ColorPicker window (this tool is provided by the above
            library). To do this, in the XAML code in the Window tag, connect the space
            names xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit" . Also, we need an event Loaded windows.
-        c. Implement so that when a color is selected from the ColorPicker, the name is displayed in the Label
+        3. Implement so that when a color is selected from the ColorPicker, the name is displayed in the Label
            the selected color and the background of the Label was painted in this color. At the push of a button, information about
            colors are stored in isolated storage. When you start the application again, the background color
            The Label remains the same as it was saved on previous runs of the application.
